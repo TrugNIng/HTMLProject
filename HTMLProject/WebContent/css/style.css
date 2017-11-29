@@ -1,0 +1,179 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.left {
+	width: 15%;
+	height: 100%;
+	background-color: #90EE90;
+	position: fixed;
+	float: left;
+}
+
+.left ul {
+	list-style-type: none;
+}
+
+.left li {
+	height: 18px;
+	padding: 10px 0;
+	border-bottom: 1px solid white;
+}
+
+.left a {
+	width: 100%;
+	text-align: left;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	color: black;
+	margin-left:15px;
+}
+
+.left li:hover {
+	background: #F1F1F1;
+	color: #A0A0A0;
+}
+
+.right {
+	width: 85%;
+	float: right;
+}
+
+.rightmenu {
+	height: 38px;
+}
+.rightmenu{
+	background-color: #336699;
+}
+
+.rightmenu a {
+	width: 100%;
+	height: 18px;
+	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: white;
+	font-size: 18px;
+	margin: 10px 0;
+	positon: relative;
+	display: block;
+}
+
+.rightmenu li:hover {
+	background: #F1F1F1;
+	color: #A0A0A0;
+}
+
+.rightmenu a:hover {
+	color: #A0A0A0;
+}
+
+.rightmenu li {
+	width: 14%;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.sub-menu {
+	display: none;
+	position: absolute;
+	background-color: #336699;
+}
+
+.sub-menu li{
+	min-width: 160px;
+	float:none;
+}
+
+.sub-menu a:hover {
+	background: #F1F1F1;
+	color: #A0A0A0;
+}
+
+.sub-menu a{
+	min-width: 160px;
+	height: 18px;
+	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: white;
+	font-size: 18px;
+	margin: 10px 0;
+	display: block;
+}
+
+.rightmenu li:hover .sub-menu {
+	display: block;
+}
+
+.banner {
+	height: 140px;
+	background-color: #A0A0A0;
+	padding: 30px 30% 30px 30% !important;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.banner a {
+	width: 40%;
+}
+
+.banner img {
+	width: 300px;
+	height: 80px;
+	margin: 0 20px 20px 20px;
+}
+
+.gdp {
+	font-size: 20px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-align: center;
+	color: #336699;
+}
+
+.content {
+	padding: 0 100px;
+}
+
+.new {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+
+.new h1 {
+	margin-bottom: 20px;
+}
+
+.new img {
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin-right: 10px;
+}
+
+p::first-line {
+	color: yellow;
+}
+
+.clear {
+	margin: 0;
+	padding: 0;
+}
